@@ -16,6 +16,7 @@ html {
 }
 
 body{
+    
     background-color: #283618;
     text-transform: uppercase;
     text-align: center;
@@ -25,12 +26,14 @@ body{
 }
 
 .scoreboard-container{
-    width: 650px;
+    width: 100vw;
+    gap: 100px;
     height: 100vh;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    margin: auto auto;
+    padding: 1rem;
 }
 
 .scoreboard-container h3{
@@ -38,9 +41,12 @@ body{
     font-size: 2.5rem;
 }
 
+.scoreboard-item{
+    width: 200px;
+}
+
 
 .scoreboard-display{
-    width: 155px;
     height: 120px;
     font-size: 90px;
     border-radius: 5px;
@@ -67,4 +73,9 @@ body{
     border: 2px solid #FEFAE0;
     color: inherit;
     background-color: inherit;
+}
+
+.rst-btn, .reduce-btn{
+    margin-top: 2rem;
+    width: 100%;
 }
