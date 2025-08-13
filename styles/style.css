@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* box-sizing reset */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* end box-sizing reset */
+
+@font-face {
+    font-family: CursedTimer;
+    src: url(../fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+body{
+    background-color: #283618;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FEFAE0;
+    margin: 0;
+}
+
+.scoreboard-container{
+    width: 650px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto auto;
+}
+
+.scoreboard-container h3{
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+
+.scoreboard-display{
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    border-radius: 5px;
+    font-family: CursedTimer;
+    background-color: #080001;
+    color: #F94F6D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 26px 0;
+}
+
+.scoreboard-btn-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.scoreboard-btn{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    font-family: CursedTimer;
+    border: 2px solid #FEFAE0;
+    color: inherit;
+    background-color: inherit;
+}
